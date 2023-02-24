@@ -1,0 +1,75 @@
+body {
+    font-family: 'Fira Sans Extra Condensed', sans-serif !important;
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#img-logo {
+    width: 50px;
+    height: 50px;
+}
+
+#brand_logo {
+    margin-top: 5rem;
+    width: 250px;
+}
+
+.active {
+    font-weight: 700;
+}
+
+.search {
+    margin-top: 2rem;
+    margin-bottom: 5px;
+}
+
+#span-error {
+    background-color: rgb(220, 53, 69);
+    color: #ffffff;
+    padding: 2px 4px;
+
+}
+
+#searchBtn {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body h4 {
+    height: 85px;
+    border-bottom: solid 1px rgb(210 210 210);
+    overflow: hidden;
+    font-weight: 700;
+}
+
+.text-truncate {
+    height: 75px;
+    white-space: pre-wrap;
+    margin-bottom: 0
+}
+
+.loader {
+    display: block;
+    margin: 0 auto;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: radial-gradient(farthest-side, #fcb53b 94%, #000000) top/9px 9px no-repeat,
+        conic-gradient(#000000 30%, #fcb53b);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+    animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.hide-loader {
+    display: none;
+}
