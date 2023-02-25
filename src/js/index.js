@@ -10,6 +10,15 @@ const brand = document.getElementById('brand_logo')
 logo.src = small_logo
 brand.src = brand_logo
 
+document.getElementById('modal-close').addEventListener('click', e => {
+    e.preventDefault();
+    console.log('click')
+    window.setTimeout(() => {
+        document.getElementById('modalCenterLongTitle').innerText = ''
+        document.getElementById('modal_description').innerText = ''
+    }, 500)
+})
+
 document.getElementById('searchBtn').addEventListener('click', e => {
     e.preventDefault();
     document.getElementById('span-error').classList.add('d-none')
