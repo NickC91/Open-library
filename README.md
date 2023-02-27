@@ -4,7 +4,7 @@
 
 Applicazione in grado di ricercare libri in base al genere e di leggerne gli autori e la trama
 
- ## Utilizzo
+## Utilizzo
  
 Tramite la barra di ricerca si andrà ad inserire un genere di libri d'interesse (ad esempio 'Fantasy') e ha quel punto la nostra applicazione ricercarà tutti i libri catalogati per quel tipo di genere e ci mostrerà i titoli dei libri e i relativi autori. Andando più nello specifico a sua volta tramite un pulsante sarà possibile leggerne la descrizione per ogni singolo libro della nostra ricerca.
 
